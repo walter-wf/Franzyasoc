@@ -1,0 +1,123 @@
+*{box-sizing: border-box;}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: "alatsi", sans-serif;
+    margin: 0;
+
+}
+
+header, nav, main, footer{width: 100%;}
+
+header{
+    height: 100px;
+    background-color: #BD1212;
+}
+/* MENU DE NAVEGACION*/
+nav{
+    height: 50px; 
+    background-color: #4930A8;
+}
+nav ul{
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+nav ul li{
+    color: white;
+    /*float: left;*/
+    display: inline-block;
+    list-style: none;
+    margin-right: 2px;
+    background-color: #2A0505;
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    /*padding: 5px;*/
+    line-height: 50px;
+    cursor: pointer;
+
+
+}
+/*pseudo clases*/
+nav ul li:hover{
+    background-color: #4930A8;
+}
+
+ul li:first-child{
+    background-color: #3CEF0B;
+    color: yellow;
+}
+ul li:nth-child(2){
+    background-color: #C21897;
+}
+ul li:nth-child(3){
+    background-color: #D24D4D;
+}
+ul li:nth-child(4){
+    background-color: #513CCC ;
+}
+ul li:nth-child(5){
+    background-color: #1DE119 ;
+}
+ul li:last-child{
+    background-color: #EFC109;
+}
+
+.bloque a:link{color:#194C04;text-decoration: none;}
+.bloque a:visited{color:#E7F3EF;text-decoration: none;}
+.bloque a:active{color:#381BBA;text-decoration: none;}
+.bloque a:hover{color:#381BBA;text-decoration: none;}
+
+
+input:focus{
+    width: 100%;
+    height: 40px;
+    background-color: #2507AA;
+
+}
+
+input:hover{background-color: #C80DA6;}
+/* FlexBox al contenedor */
+main{
+    height: 750px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+
+}
+
+
+.bloque{
+    width: 31.3%;
+    height: 550px;
+    background-color: aqua;
+    padding: 15px
+}
+
+#banner{
+    width: 97%;
+    height: 150px;
+    background-color: #E2094A;
+    padding:15px;
+    color: #fff;
+
+}
+
+#banner h2{
+    margin-top: 0;
+}
+.bloque2{
+    margin-top: 0;
+
+}
+
+footer{
+    height: 100px;
+    background-color: #BD1212;
+}

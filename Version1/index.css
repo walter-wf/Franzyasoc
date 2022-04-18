@@ -1,0 +1,62 @@
+@font-face{
+	font-family: "Lobster-Regular";
+	src:url(../fonts/Lobster-Regular.ttf);
+}
+
+body{
+	
+	height: auto;
+	background-color: #C5C5C8;
+	margin: auto;
+	font-family: 
+	<link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+
+}
+
+/* Selector Grupal */
+
+body,header,nav,footer{width: 1100px;}
+
+header{ height: 300px; background-color: #E7330B; }
+nav{ height: 50px; background-color: #40E70B;}
+
+main{ 
+	height: auto;
+	background-color: 
+ }
+ h1{margin-top: 0; text-align: center;} 
+ h2{text-align: center;} 
+
+ p{
+ 	font-family: "Lobster-Regular";
+ 	text-align: justify;
+ 	font-size: 18px;
+ 	line-height: 30px;  /* alto de las palabras */
+ 	word-spacing: 10px; /* Espacio entre palabras */
+ 	letter-spacing: 1px; /*espacio entre letra y letra */
+ }
+
+ img{width: 100%;}
+
+ figure{width: 500px; margin-left: 0; height: 350px;
+ background-color: rgba(1,116,223,0.5); margin: auto; margin-bottom: 20px;
+ }
+
+ figure img{
+ 	width: 90%; /* ley de especifidad: Solo se modifica la imagen dentro del figure img, no hereda
+ 	la caracteriztica de la anterio*/
+ 	margin:auto;
+ 	display: block;
+ 	opacity: 0.5;
+ 	cursor: pointer;
+ }
+
+ figure img:hover{opacity: 1; width: 100%, height:300px;}
+
+ figcaption{text-align: center; margin-top: 10px; color:darkgreen;}
+
+ footer{
+ 	height: 350px;
+ 	background-color:  #E7330B;
+
+ }
